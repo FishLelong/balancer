@@ -1,9 +1,9 @@
 {
   "network": "homestead",
-  "chainId": 1,
+  "chainId": 3,
   "defaultPrecision": 2,
-  "rpcUrl": "https://eth-mainnet.alchemyapi.io/v2/Q08AP-nlA-yUiQnIiAVlyWK4tbXjRMmD",
-  "wsUrl": "wss://eth-mainnet.ws.alchemyapi.io/v2/Q08AP-nlA-yUiQnIiAVlyWK4tbXjRMmD",
+  "rpcUrl": "https://ropsten.infura.io/v3/5b4be16ba6414639b3524693ada79d03",
+  "wsUrl": "wss://ropsten.infura.io/ws/v3/5b4be16ba6414639b3524693ada79d03",
   "subgraphUrl": "https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-beta",
   "explorer": "https://etherscan.io",
   "addresses": {
@@ -25,7 +25,7 @@
       "name": "WalletConnect",
       "options": {
         "rpc": {
-          "1": "https://eth-mainnet.alchemyapi.io/v2/Q08AP-nlA-yUiQnIiAVlyWK4tbXjRMmD"
+          "1": "https://ropsten.infura.io/v3/5b4be16ba6414639b3524693ada79d03"
         }
       }
     },
@@ -33,7 +33,7 @@
       "id": "portis",
       "name": "Portis",
       "options": {
-        "network": "mainnet",
+        "network": "ropsten",
         "dappId": "3f1c3cfc-7dd5-4e8a-aa03-71ff7396d9fe"
       }
     },
@@ -43,8 +43,8 @@
       "options": {
         "appName": "Pool management - Balancer",
         "darkMode": true,
-        "chainId": 1,
-        "ethJsonrpcUrl": "https://eth-mainnet.alchemyapi.io/v2/Q08AP-nlA-yUiQnIiAVlyWK4tbXjRMmD"
+        "chainId": 3,
+        "ethJsonrpcUrl": "https://ropsten.infura.io/v3/5b4be16ba6414639b3524693ada79d03"
       }
     },
     "fortmatic": {

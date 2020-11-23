@@ -158,7 +158,7 @@ const actions = {
     auth = getInstance();
     await auth.login(connector);
     if (auth.provider) {
-      auth.web3 = new Web3Provider(auth.provider);
+      auth.web3 = new Web3Provider(auth.provider || 'https://ropsten.infura.io/v3/5b4be16ba6414639b3524693ada79d03');
       await dispatch('loadWeb3');
     }
     commit('SET', { authLoading: false });
