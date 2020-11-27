@@ -1,18 +1,18 @@
 import config from '@/config';
 
 export function setGoal(id, value = 0) {
-  if (window['fathom'] && config.network === 'homestead')
+  if (window['fathom'] && config.network === 'kovan')
     window['fathom'].trackGoal(id, value);
 }
 
 export function pageView() {
-  if (window['fathom'] && config.network === 'homestead') {
+  if (window['fathom'] && config.network === 'kovan') {
     const hash = window.location.hash.replace('#/', '');
     window['fathom'].trackPageview({ url: hash });
   }
 }
 
-if (config.network === 'homestead') {
+if (config.network === 'kovan') {
   const script = document.createElement('script');
   script.setAttribute('src', 'https://cdn.usefathom.com/script.js');
   script.setAttribute('data-spa', 'auto');

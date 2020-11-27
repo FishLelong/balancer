@@ -233,6 +233,7 @@ export default {
     const dai = getTokenBySymbol('DAI').address;
     const usdc = getTokenBySymbol('USDC').address;
     this.tokens = [dai, usdc];
+    console.log(this.tokens, 'aa')
     Vue.set(this.weights, dai, '30');
     Vue.set(this.weights, usdc, '20');
     this.loading = false;
@@ -401,6 +402,7 @@ export default {
     },
     addToken() {
       const anotherToken = getAnotherToken(this.config.tokens, this.tokens);
+      console.log(anotherToken,this.config.tokens, this.tokens, 'anotherToken')
       this.tokens.push(anotherToken);
       Vue.set(this.weights, anotherToken, '');
       Vue.set(this.amounts, anotherToken, '');

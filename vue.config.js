@@ -1,7 +1,8 @@
 const path = require('path');
 
 module.exports = {
-  publicPath: process.env.DEPLOY ? '././' : '/',
+  // publicPath: process.env.DEPLOY ? '././' : '/',
+  publicPath: './',
   pluginOptions: {
     express: {
       shouldServeApp: true,
