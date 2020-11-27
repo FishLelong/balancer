@@ -8,7 +8,7 @@
   "explorer": "https://kovan.etherscan.io",
   "addresses": {
     "bFactory": "0x8f7F78080219d4066A8036ccD30D588B416a40DB",
-    "bActions": "0xc08aEBF46AC7336bba65c8FAe8d0Be46b2399cE6",
+    "bActions": "0xeACBe91fE3F8eF6086027AEC0127De982205b1Aa",
     "dsProxyRegistry": "0x130767E0cf05469CF11Fa3fcf270dfC1f52b9072",
     "proxy": "0x2641f150669739986CDa3ED6860DeD44BC3Cda5d",
     "crpFactory": "0x53265f0e014995363AE54DAd7059c018BaDbcD74",
